@@ -1,0 +1,63 @@
+{
+    "client": [
+      {
+        "id": 1,
+        "nomSociete": "JALIX",
+        "nomContact":"Ternois",
+        "prenomContact" : "Cédric",
+        "emailContact" : "cedric.ternois@jalix-services.com",
+        "telContact" : "0681587342",
+        "adresse" : "8 Av. Flandres Dunkerque",
+        "CodePostal" :"60200",
+        "ville":"Compiègne",
+        "pays":"France"
+      },
+      {
+        "id": 2,
+        "nomSociete": "VITANIME",
+        "nomContact":"KLAUS",
+        "prenomContact" : "Jules",
+        "emailContact" : "jules@vitanime.com",
+        "telContact" : "0782789900",
+        "adresse" : "20 rue Macher",
+        "CodePostal" :"L-5550",
+        "ville":"REMICH",
+        "pays":"Luxembourg"
+      },{
+        "id": 3,
+        "nomSociete": "ECOLE EUROPEENNE DU NUMERIQUE",
+        "nomContact":"PINET",
+        "prenomContact" : "Jonathan",
+        "emailContact" : "jonathan@eedn.fr",
+        "telContact" : "0744868312",
+        "adresse" : "305 route de Nîmes",
+        "CodePostal" :"34170 ",
+        "ville":"Castelnau-Le-Lez",
+        "pays":"France"
+      }
+
+    ],
+    "commandes": [
+      {
+      "id": 1,
+      "name": "developpement site web Business Challenge",
+      "tempsEstime" : 80,
+      "tempPasse" : 60,
+      "idClient" : 1
+    },
+    {
+      "id": 2,
+      "name": "developpement site web Alfi Voting platform",
+      "tempsEstime" : 24,
+      "tempPasse" : 16,
+      "idClient" : 2
+    },
+    {
+      "id": 3,
+      "name": "developpement site web Alfi European asset management",
+      "tempsEstime" : 120,
+      "tempPasse" : 90,
+      "idClient" : 2
+    }
+  ]
+  }
